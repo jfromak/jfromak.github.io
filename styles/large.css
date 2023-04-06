@@ -1,0 +1,213 @@
+@media only screen and (min-width: 75rem) {
+    header 
+    main,
+    footer,
+    nav {
+      max-width: 800px;
+    }
+
+    nav ul {
+      display: flex;
+  }
+
+  nav ul li {
+      flex: 1 1 100%;
+  }
+
+  .heading h1 {
+    font-size: 30px;
+}
+
+.motto {
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: left;
+
+}
+
+ul,
+li {
+    font-size: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+    
+    .mygallery {
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      grid-gap: 10px;
+      justify-content: center;
+
+  }
+
+  .mygallery img {
+      max-width: 100%;
+  }
+
+  .mygallery figcaption {
+      background-color: #FFECD1;
+      border: thin silver solid;
+      padding: 5px;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+  }
+  .mygallery :hover {
+      box-shadow: 0 0 50px black;
+  }
+
+
+  }
+
+  .event-tab {
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+    background-color: #e5a417;
+    color: #014558;
+    font-size: 1.15rem;
+}
+
+.event-tab p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.event-tab {
+    display: none;
+}
+
+.tab2, .tab3, .tab4, .tab5, .demo-tab, .form-tab, .tab6, .thankyou-tab {
+    background-color: #cae9ff;
+    color: #030061;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 0 5px grey;
+}
+
+.tab3 div p, .tab3 h2, .tab5 h2, .tab5 h2, .tab5 h3, .tab5 div p, .tab4 h2, .tab4 p, .tab6 p, .demo-tab, .thankyou-tab {
+    text-align: center;
+    color: #030061;
+}
+
+.tab-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.home-grid .tab3 h2 {
+    font-size: 1.5rem;
+}
+
+.tab3 figcaption {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    font-size: 1.25rem;
+}
+
+.tab3 .weather {
+    display: flex;
+}
+
+.tab3 .weather img {
+    margin-left: auto;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.tab3 .weather p {
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2rem;
+}
+
+#sub-tab1, #sub-tab2, #sub-tab3 {
+    text-align: center;
+    border: 2px solid grey;
+    padding: 15px;
+    margin: 15px;
+}
+
+#sub-tab3 {
+    display: none;
+}
+
+.tab1 {
+    margin: 5px;
+    position: relative;
+    padding: 0;
+    box-shadow: 0 0 5px grey;
+}
+
+.tab1 h1 {
+    position: absolute;
+    font-weight: 1000;
+    top: 5px;
+    left: 5px;
+    padding: 25px;
+    font-size: 1rem;
+    text-shadow: 0 0 20px grey;
+}
+
+.tab1 a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 1000;
+    position: inherit;
+    bottom: 5px;
+    right: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #9adbc1;
+    color: black;
+    box-shadow: 0 0 20px black;
+    text-shadow: 0 0 20px grey;
+}
+
+.tab1 a:hover {
+    border-radius: 45px 5px;
+}
+
+.tab1 img {
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+.tab2, .tab2 h2, .tab2 p, .tab2 a {
+    text-align: center;
+}
+
+.tab2 h2, .tab3 h2, .tab4 h2, .tab5 h2, .demo-tab h1, .thankyou-tab h1 {
+    font-size: 1.25rem;
+    text-shadow: 0 0 20px grey;
+}
+
+.tab2 h2, .tab5 h2 {
+    font-size: 1.15rem;
+}
+
+.tab6 {
+    display: none;
+    grid-area: 4 / 1 / 5 / 4;
+}
+
+.tab2 {
+    display: block;
+}
