@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Site Planning Home Page</title>
+    <meta name="description" content="Recipe page information.">
+
+    <link rel="shortcut icon" href="favicon/icon_32f88267bfc9b9b9540121e0394fdd15.ico">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+</head>
+
+<body onload="currentDate(); pancakes()">
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/last-modified.js"></script>
+    <script src="scripts/pancakes.js"></script>
+    <div id="pan" class="cakes">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+    </div>
+
+    <header>
+        <picture class="logo">
+            <img src="images/fruitlogo.jpg"alt="Bountiful Foods logo.">
+        </picture>
+        <section class="heading">
+            <h1>Bountiful Foods</h1>
+            <div class="motto">Your one stop shop for fresh produce and smoothies!</div>
+        </section>
+
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fresh.html">Produce Information</a></li>
+            <li class="active"><a href="recipes.html">Recipes</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <div class="contentbox">
+            <h3>Healthy Green Smoothies</h3> <a href="greensmoothie.html"><strong>Recipe here.</strong></a>
+            <hr>
+            
+            <img class="ice" src="images/healthysmoothie.jpg" width=750px height= 500px alt="green fruit and vege smmoothie.">
+            <p>-A simple green smoothie for beginners that is healthy, tastes amazing, and it's made with 4 ingredients in less than 5 minutes.</p>
+
+        </div>
+
+        <div class="contentbox">
+            <h3>Strawberry Smoothie</h3> <a href="strawberrysmoothie.html"><strong>Recipe here.</strong></a>
+            <hr>
+            
+            <img class="ice" src="images/smoothies3.jpg" width=750px height= 500px alt="red fruit smoothie.">
+            <p>-Here’s the most perfect strawberry smoothie you’ll find! It’s easy to blend up and has the best creamy texture and fruity flavor.
+
+            </p>
+            
+        </div>
+
+        <div class="contentbox">
+            <h3>How to Make Pressed Juices</h3> <a href="https://thegirlonbloor.com/juicing-recipes/"><strong>Helpful tips click here.</strong></a>
+            <hr>
+            
+            <img class="ice" src="images/vegesmoothies.jpg" width= 750px height= 500px alt="veggie smoothies.">
+            <p>-These Healthy Juicing Recipes are all super easy, full of nutrients and a great way to get into making cold press juices at home.</p>
+           <p>-Mix and match with different ingredients until you find a combination you love.</p>
+        
+        </div>
+
+        
+            <div class="contentbox">
+            <h3>Pina Colada Smoothie</h3> <a href="https://www.iheartnaptime.net/pina-colada-smoothies/"><strong>Recipe here.</strong></a>
+            <hr>
+            
+            <img class="ice" src="images/pinacolada.jpg" width=750px height= 500px alt="pina colada ingredients.">
+            <p>-This pina colada smoothie is a tropical mix of frozen pineapple and coconut milk blended into a refreshing drink! Made with 3 simple ingredients, this healthy smoothie recipe is a creamy, cool and satisfying way to begin the day. 
+        <p><strong>Other ways to use your leftover fruit, </strong><a href="404.html"><strong><a href="404.html"><strong>Click here.</a></strong>
+        </a></strong>
+        </p>
+            </div>
+            <footer>
+                <div class="logo-footer">
+                    <img class="logo-footer" src="images/fruitlogo.jpg" alt="Bountiful Foods Logo image" width= 100px, height= 100px alt="Bountiful Foods fruits logo">
+                        </div>
+                        <div class="title-footer">
+                            <h2>Bountiful Foods</h2>
+                        </div>
+                        <div class="contact">
+                            <p>7201 Carlsbad Blvd, Carlsbad, CA 92011</p>
+                            <p>+(415) 552-5559</p>
+                            <a href="https://www.mapquest.com/us/california/south-carlsbad-state-beach-457763471">
+                                📍 Location
+                                </a>
+                                    <br><br>
+                            </div>
+                        <div class="info">  
+                                <span>  &nbsp; &nbsp; &copy;<span id="©">
+                                </span>  &nbsp; Bountiful Foods &nbsp;</span> |  &nbsp; Celena Rousculp &nbsp; |  &nbsp; WDD 230 Final Project &nbsp;|  &nbsp;  &nbsp; <span id="dateMod"></span>
+                                <div><span id="currentdate"></span></div>
+                        </div>            
+                   </footer>
+    
+        <script src="scripts/last-modified.js" defer></script>
+        <script src="scripts/pancakes.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/toggle.js"></script>  
+        <script src="scripts/webfontload.js"></script>
+        <script src="scripts/json.js"></script>
+        <script src="scripts/weatherapi.js"></script>
+    </body>
+    
+    </html>

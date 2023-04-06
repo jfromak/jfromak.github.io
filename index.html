@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Bountiful Foods home page</title>
+    <meta name="description" content="Home page information.">
+
+    <link rel="shortcut icon" href="favicon/icon_32f88267bfc9b9b9540121e0394fdd15.ico">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+</head>
+
+<body onload="currentDate(); pancakes()">
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/last-modified.js"></script>
+    <script src="scripts/pancakes.js"></script>
+    <div id="pan" class="cakes">Come join us at Carlsbad state park this Saturday 9am-5pm.</div>
+
+    <header>
+        <picture class="logo">
+            <img src="images/fruitlogo.jpg"alt="Bountiful Foods logo.">
+        </picture>
+        <section class="heading">
+            <h1>Bountiful Foods</h1>
+            <div class="motto">Your one stop shop for fresh produce and smoothies!</div>
+        </section>
+
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="fresh.html">Produce Information</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        
+        <div class="home-grid">
+            <div class="tab1">
+                <h1>Bountiful Foods</h1>
+                <a href="contactus.html">Sign up for our Newsletter</a>
+                                
+            </div>
+        <div class="banner-box">
+            
+            <hr>
+            <picture>
+                <source class="hero" media="(min-width: 300px) and (max-width:500px)" srcset="images/fruits.jpg">
+                <source media="(min-width: 500px) and (max-width:500px)" srcset="images/fruits.jpg">
+                <source media="(min-width: 500px)" srcset="images/fruits.jpg"> 
+                <img src="images/fruits.jpg" width= 800px height= 500px alt="collection of fruits"> 
+            </picture>
+            <hr>
+            <section class="weathersummary">
+
+                <h3>Our Weather Today</h3>
+                <hr>
+                <p>Current Conditions: Cloudy<span id="weather"></span></p>
+                <p>Current Temperature: 66 <span id="temp"></span> °F</p>
+                <p>Feels Like: 59<span id="feelslike"></span> °F</p>
+                <p>Humidity: 64 <span id="humidity"></span> %</p>
+                <p>Wind Speed: 9 <span id="speed"></span> mph</p>
+                <p>Wind Chill: <span id="windchill"></span> 69°F</p>
+                <img src="https://openweathermap.org/img/w/04d.png" width= 75px height= 50px alt="forecast icon"> 
+                <hr>
+
+        </div>
+
+        <section>
+            <h2>Here's the latest with Bountiful Foods</h2>
+            <hr>
+            <div class="cards"></div>
+        </section>
+        <section class="news">
+            <h3>Produce Information</h3>
+            Ever want to know more about all the produce we sell and use for smoothies?  <a href="fresh.html"><strong>Click here.</a></strong>
+            <img src="images/basketoffruit.jpg" width= 800px height= 500px alt="basket of fruit">
+            
+            
+            <h3>Benefits of fresh smoothies </h3> <a href="https://www.healthline.com/nutrition/are-smoothies-good-for-you"><strong>Smoothie article here.</strong></a>
+            <img src="images/girldrink.jpg" width= 800px height= 500px alt="girl drinking a green smoothie">
+
+           
+            <h3>Recipes</h3>
+            <p>Here are some recipes we love. <a href="recipes.html"><strong>See more...</a></strong>
+                <img src="images/homepage.jpg" width= 800px height= 500px alt="jars of fruit flavored water">
+            </p>
+
+            <hr>
+            <h3>Weather</h3>
+            <p>Our beautiul sunny weather seems to have gone away this upcoming week. Expect cloudy days for at least a week. </p>             <a href="https://weather.com/weather/tenday/l/d64df3726a4c9327523bfa3c53f5b06093458a9872d38cde440c0edfed77c232"><strong>Weather info here.</strong></a>
+
+            <img src="images/cloudybeach.jpg" width= 800px height= 500px alt="cloudybeach image">
+            <h3>News</h3>
+            Here's the latest news going on in Carlsbad.
+            <a href="https://www.sandiegouniontribune.com/communities/north-county/carlsbad"><strong>See more.</a></strong>
+
+
+        </section>
+
+
+    <footer>
+        <div class="logo-footer">
+            <img class="logo-footer" src="images/fruitlogo.jpg" alt="Bountiful Foods Logo image" width= 100px, height= 100px alt="Bountiful Foods fruits logo">
+                </div>
+                <div class="title-footer">
+                    <h2>Bountiful Foods</h2>
+                </div>
+                <div class="contact">
+                    <p>7201 Carlsbad Blvd, Carlsbad, CA 92011</p>
+                    <p>+(415) 552-5559</p>
+                    <a href="https://www.mapquest.com/us/california/south-carlsbad-state-beach-457763471">
+                        📍 Location
+                        </a>
+                            <br><br>
+                    </div>
+                <div class="info">  
+                        <span>  &nbsp; &nbsp; &copy;<span id="©">
+                        </span>  &nbsp; Bountiful Foods &nbsp;</span> |  &nbsp; Celena Rousculp &nbsp; |  &nbsp; WDD 230 Final Project &nbsp;|  &nbsp;  &nbsp; <span id="dateMod"></span>
+                        <div><span id="currentdate"></span></div>
+                </div>            
+           </footer>
+
+    <script src="scripts/last-modified.js" defer></script>
+    <script src="scripts/pancakes.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/toggle.js"></script>  
+    <script src="scripts/webfontload.js"></script>
+    <script src="scripts/json.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+</body>
+
+</html>
